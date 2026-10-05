@@ -49,6 +49,6 @@ Claude, Groq and xAI, and includes a local dashboard and 28 offline tests.
 
 ### Get in touch
 
-[Portfolio](https://samthanalyst.netlify.app) · [LinkedIn]([YOUR LINKEDIN URL]) · [YOUR EMAIL]
+[Portfolio](https://samthanalyst.netlify.app) · [LinkedIn](https://www.linkedin.com/in/samuel-johnson-5a5b24342/) · [samthnalyst@gmail.com](mailto:samthnalyst@gmail.com)
 
 Open to remote roles and contracts in AI engineering, automation and backend development.
