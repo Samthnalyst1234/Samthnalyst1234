@@ -1,4 +1,4 @@
-## Hi, I'm Johnson Samuel
+## Hi, I'm Samuel Johnson
 
 **AI Engineer and Backend Developer in Lagos, Nigeria.** I build LLM agents, automation pipelines and the production
 backends they run on, and I take them from prototype to shipped.
