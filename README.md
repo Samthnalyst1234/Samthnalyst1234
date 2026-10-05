@@ -9,7 +9,20 @@ backends they run on, and I take them from prototype to shipped.
 - **Focus:** making LLM systems reliable in production, with automatic quality checks, kill switches, source checking
   and human review where it counts.
 
-### Featured project
+### Featured projects
+
+**CEOfy: an AI chief of staff that turns your goals into screen-time limits** (Android app, private beta).
+Tell it what you want to achieve, by text or voice. An LLM agent with tool calling sets the day's mission, picks the
+#1 task and gives each social app a time budget that fits the goal. A native Android guard tracks real usage and puts
+a full-screen lock over an app when its budget runs out. When you do scroll, it suggests searches that serve your goal.
+It also logs your wins, scores each day, and has a scheduled agent that writes a morning briefing and a weekly report.
+- **Agent:** acts on the first message instead of asking questions, and checks that every change it claims was actually saved
+- **Native Android (Kotlin):** usage tracking, a foreground guard service, an overlay blocker, and audio-focus control so
+  locked videos can't keep playing in picture-in-picture
+- **Backend:** Supabase Postgres with row-level security, 8 Edge Functions, a pg_cron agent, and API-key rotation on
+  rate limits; voice uses Whisper for speech-to-text and Orpheus for a natural reply voice
+
+`React Native (Expo)` `TypeScript` `Kotlin` `Supabase` `PostgreSQL` `Deno` `Groq` `Whisper`
 
 **[Farmbt](https://github.com/Samthnalyst1234/Farmbt): a multi-agent AI research farm.**
 Describe a problem area. Agents research it on the web, find what's still unsolved, stress-test each gap with a critic
